@@ -9,13 +9,14 @@
 </head>
 
 <body>
+
   <!-- container principal dos botões centrais  -->
-  <section class="fundo-total">
+  <section style="background-image: url(img/background_original.svg);" class="fundo-total">
     <div class="container botoes-path">
       <!-- botao do varejo -->
       <div class="container botao1">
         <div style="text-align: center; " class="grid-16">
-          <a class="bt1" href="http://intranet.faridnet.com.br/supermercado/" style="color: white;text-decoration: none;border: none;"><img class="varejoLogo " src="/img/logo-varejo.svg" alt=""><span class=txt1> Farid Supermercados</span></a>
+          <a class="bt1" href="http://intranet.faridnet.com.br/supermercado/" style="color: white;text-decoration: none;border: none;"><img class="varejoLogo " src="img/logo-varejo_original.svg" alt=""><span class=txt1> Farid Supermercados</span></a>
         </div>
       </div>
       <!-- botão da revenda -->
@@ -49,8 +50,8 @@
         <div class="col-md-3"></q> <a href="ts/ts-rh.sh" style="color: white;text-decoration: none;"> <cite>TS-Rh</cite></p></a><br>
         </div>
         <div class="col-md-3">
-          </q> <a href="/ts/ts-compras.sh" style="color: #fff;text-decoration: none;"><cite>TS-Compras </cite></p></a><br>
-          </q> <a href="ts/ts-maiscor.sh" style="color: #fff;text-decoration: none;"><cite>TS-Maiscor</cite></p></a><br>
+          </q> <a href="ts/ts-compras.sh " download="compras.sh" style="color: #fff;text-decoration: none;"><cite>TS-Compras </cite></p></a><br>
+          </q> <a download="TS-Maiscor" style="color: #fff;text-decoration: none;"><cite>TS-Maiscor</cite></p></a><br>
           </q> <a href="ts/ts-geral.sh" style="color: white;text-decoration: none ;"><cite>TS-Geral</cite></p></a><br>
           </q> <a href="ts/ts-vdi.sh" style="color: white;text-decoration:none;"><cite>TS-Vdi</cite></p></a><br>
           </q> <a href="ts/ts-contabilidade.sh" style="color: white;text-decoration: none;"><cite>TS-Contabilidade</cite></p><a><br>
@@ -62,14 +63,24 @@
       <div class="sair"><a><button class="close" id="hide" style=" border-color: white;padding-bottom: 5px;">Sair</button></a></div>
     </dialog>
 
+    <script>(function () {
+        var dialog = document.getElementById('myFirstDialog');     //função para o botão do terminal
+        document.getElementById('show').onclick = function () {
+          dialog.show();
+        };
+        document.getElementById('hide').onclick = function () {
+          dialog.close();
+        };
+
+      })();</script>
 
 
 
 
     <!-- animações  -->
     <section>
-      <img class="folha-logo" src="/img/folhas/folha-logo.svg" style="position: absolute; left: -6rem; top: 20rem; background-size;" alt="folha1">
-      <img class="distri-logo" src="/img/folhas/farid-distruibuidora1.svg" style="position: absolute; left: 74.9rem;top:1rem;" alt="distribuidora">
+      <img class="folha-logo" src="img/folhas/folha-logo.svg" style="position: absolute; left: -6rem; top: 20rem; background-size;" alt="folha1">
+      <img class="distri-logo" src="img/folhas/farid-distruibuidora1.svg" style="position: absolute; left: 74.9rem;top:1rem;" alt="distribuidora">
 
     </section>
 

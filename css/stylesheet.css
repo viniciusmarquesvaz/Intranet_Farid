@@ -573,11 +573,6 @@ img {
 }
 
 .bt1:hover:after {
-  /* opacity: 1;
-  position: absolute;
-  top: 12.6rem;
-  left: 18.5rem; */
-
   opacity: 1;
   right: 10px;
 }
@@ -607,14 +602,6 @@ img {
 }
 
 .bt2:after {
-  /* opacity: 0;
-  top: 14px;
-  right: -20px;
-  transition: 0.5s;
-  position: absolute;
-  top: 19.5rem;
-  left: 18.5rem; */
-
   content: "»";
   position: absolute;
   opacity: 0;
@@ -631,12 +618,6 @@ img {
   left: 18.5rem;
 }
 .bt2:hover:after {
-  /* opacity: 1;
-  right: 10px;
-  position: absolute;
-  top: 19.5rem;
-  left: 18.5rem; */
-
   opacity: 1;
   right: 10px;
 }
@@ -666,23 +647,6 @@ img {
   animation-fill-mode: forwards;
   transform: translateY(-10px);
 }
-
-/* .btAlign {
-  visibility: hidden;
-}
-
-.btAlign:after {
-  visibility: visible;
-  content: ">>";
-}
-
-.btAlign:hover {
-  visibility: hidden;
-}
-.btAlign:hover:after {
-  visibility: visible;
-  content: ">>";
-} */
 
 .move-txt {
   color: white;
@@ -834,29 +798,6 @@ cite:hover {
   border-radius: 20px;
 }
 
-/* folhas animações */
-/* .folha3 {
-  animation-name: folha3;
-  animation-duration: 3s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-direction: normal;
-} */
-/* .folha-logo {
-  animation-name: logofolha;
-  animation-duration: 4.5s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-direction: alternate-reverse;
-} */
-/* .distri-logo {
-  animation-name: distrilogo;
-  animation-duration: 4.5s;
-  animation-timing-function: linear;
-  animation-direction: normal;
-} */
-
-/* animações */
 @keyframes distrilogo {
   from {
     opacity: 0;
@@ -905,7 +846,7 @@ to {
   }
 }
 
-@keyframes logofolha {
+/* @keyframes logofolha {
   from {
     opacity: 0;
   }
@@ -913,4 +854,4 @@ to {
     opacity: 1;
     transform: translateX(0);
   }
-}
+} */

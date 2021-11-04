@@ -510,7 +510,7 @@ ul {
   font-weight: normal;
 }
 /* fim */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700italic);
+/* @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700italic); */
 body {
   font-family: "Poppins", sans-serif;
   background-color: #a01d4b;
@@ -742,8 +742,8 @@ dialog {
   left: 60.6rem;
   top: 5rem;
   background-color: #a01d4b;
-  border-color: white;
-  color: white;
+  border-color: #a01d4b;
+  color: #a01d4b;
   animation-name: dialogo;
   animation-duration: 0.6s;
   transform: translateY(20px);
@@ -753,7 +753,7 @@ dialog {
 }
 cite {
   font-family: "Poppins", sans-serif;
-  font-style: normal;
+  font-style: bold;
 }
 .close {
   background-color: #a01d4b;
@@ -791,11 +791,9 @@ cite {
   border-radius: 10px;
 }
 cite:hover {
-  /* text-decoration: underline; */
-  cursor: pointer;
+  background-color: white;
+  color: #a01d4b;
   font-weight: bold;
-  border-style: solid;
-  border-radius: 20px;
 }
 
 @keyframes distrilogo {

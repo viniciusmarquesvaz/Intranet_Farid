@@ -520,7 +520,7 @@ img {
 }
 
 .fundo-total {
-  /* background: url("/img/background_original.svg") no-repeat center; */
+  background: url("/img/background_original.svg") no-repeat center;
   overflow-y: hidden;
   overflow-x: hidden;
   height: 41rem;

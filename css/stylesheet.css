@@ -110,6 +110,7 @@
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
+  overflow-x: hidden;
 }
 
 /* Sections
@@ -854,3 +855,8 @@ to {
     transform: translateX(0);
   }
 } */
+
+$border {
+  border-color: #a01d4b;
+  color: #a01d4b;
+}

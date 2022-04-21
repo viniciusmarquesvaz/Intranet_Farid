@@ -1,12 +1,12 @@
 # Intranet_Farid
  
-- 💻 Realizei uma atualizão da página de Intranet do GrupoFarid(empresa em que trabalho atualmente);
+- 💻 Realizei uma atualizão voluntária na página de Intranet do GrupoFarid(empresa onde trabalhei);
 - 💻 O intuito deste projeto é atualizar a página e deixar um design mais atrativo para os colaboradores;
 - 💻 Foi adicionado um bottom para o usuário baixar o terminal correspondente ao seu setor para auxiliar a equipe de infraestrutura a dar suporte;
 - 💻 A possibilidade de atualização dos sites que conectam a página de intranet(distribuidora e varejo);
 - 💻 Ainda está em construção
 
-## LINK DO SITE  👉 https://viniciusmarquesvaz.github.io/Intranet_Farid/
+## LINK DA PRODUCTION  👉 https://viniciusmarquesvaz.github.io/Intranet_Farid/
 
 
 ## ANTES 👇

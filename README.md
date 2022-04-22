@@ -6,7 +6,7 @@
 - 💻 A possibilidade de atualização dos sites que conectam a página de intranet(distribuidora e varejo);
 - 💻 Ainda está em construção
 
-## LINK DA PRODUCTION  👉 https://viniciusmarquesvaz.github.io/Intranet_Farid/
+
 
 
 ## ANTES 👇
